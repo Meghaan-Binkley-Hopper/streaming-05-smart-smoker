@@ -16,12 +16,23 @@ RabbitMQ comes with an admin panel. When you run the task emitter, reply y to op
 Explore the RabbitMQ website.
 
 
-## Execute a Consumer / Worker
+## Execute Smoker Consumer / Worker
 
-1. Run (consumer file name)
+1. Run smoker_consumer_MBinkley-Hopper.py
 
 2. Push CTRL+C to quit.
 
+## Execute Food A Consumer / Worker
+
+1. Run foodA_consumer_MBinkley-Hopper.py
+
+2. Push CTRL+C to quit.
+
+## Execute Food B Consumer / Worker
+
+1. Run foodB_consumer_MBinkley-Hopper.py
+
+2. Push CTRL+C to quit.
 
 ## Reference
 
@@ -33,3 +44,10 @@ Explore the RabbitMQ website.
 See a running example here:
 1. Producer
 ![Producer](Console_Producer.PNG)
+2. Smoker Consumer
+![Smoker Consumer 1](smoker_consumer_1.PNG)
+![Smoker Consumer 2](smoker_consumer_2.PNG)
+3. Food A Consumer
+![Food A Consumer](foodA_consumer.PNG)
+4. Food B Consumer
+![Food B Consumer](foodB_consumer.PNG)

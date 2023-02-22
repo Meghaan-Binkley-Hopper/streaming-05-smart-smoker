@@ -102,9 +102,9 @@ if __name__ == "__main__":
 
         # convert non-empty temp strings into floats
         try:
-            fstring_channel1 = float(fstring_channel1)
-            fstring_channel2 = float(fstring_channel2)
-            fstring_channel3 = float(fstring_channel3)
+            fstring_channel1 = float(fstring_channel1[1])
+            fstring_channel2 = float(fstring_channel2[1])
+            fstring_channel3 = float(fstring_channel3[1])
         # skip the float conversion on empty strings
         except ValueError:
             pass
@@ -128,8 +128,8 @@ if __name__ == "__main__":
         send_message(host,"02-food-A",message_foodA)
         send_message(host,"03-food-B",message_foodB)
 
-        #time delay for 30 seconds between message sends
-        time.sleep(30)
+        #time delay for 3 seconds between message sends
+        time.sleep(3)
     #close csv file
     input_file.close()
 
